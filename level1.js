@@ -75,6 +75,32 @@ const itCompanies = [
 // index === -1 ? console.log(`This company dose not exist`) : console.log(`This company does exist`)
 
 //14.
-const results = itCompanies.filter(itCompanies => itCompanies.includes('o'))
-console.log(results)
+// const results = itCompanies.filter(itCompanies => itCompanies.includes('o'))
+// console.log(results)
 
+//15.
+// console.log(results.sort())
+
+//16.
+// console.log(results.reverse())
+
+//17.
+// console.log(results.slice(0, 3))
+
+//18.
+// console.log(itCompanies.slice(4, 7))
+
+//19.
+// console.log(itCompanies.slice(1, 5))
+
+//20.
+// console.log(itCompanies.slice(0 ,1))
+
+//21.
+// console.log(itCompanies.shift())
+
+//22.
+// console.log(itCompanies.pop())
+
+//23.
+// console.log(itCompanies.splice(itCompanies.length))
