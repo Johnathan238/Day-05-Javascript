@@ -44,9 +44,9 @@
 // ]
 
 //6.
-const itCompanies = [
-  "facebook", "google", "microsoft", "apple", "IBM", "oracle" , "amazon"
-]
+// const itCompanies = [
+//   "facebook", "google", "microsoft", "apple", "IBM", "oracle" , "amazon"
+// ]
 
 //7.
 // console.log(itCompanies)
