@@ -1,3 +1,17 @@
+const countries = [
+  'Albania',
+  'Bolivia',
+  'Canada',
+  'Denmark',
+  'Ethiopia',
+  'Finland',
+  'Germany',
+  'Hungary',
+  'Ireland',
+  'Japan',
+  'Kenya'
+]
+
 // let text =
 // 'I love teaching and empowering people. I teach HTML, CSS, JS, React, Python.'
 
@@ -14,3 +28,9 @@
 // console.log(shoppingCart)
 // shoppingCart[2] = "Green Tea"
 // console.log(shoppingCart)
+
+if(countries.includes('Ethiopia')){
+  console.log("Yes, its in the arr")
+} else {
+  console.log("Country not here")
+}
