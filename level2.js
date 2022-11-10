@@ -12,6 +12,15 @@ const countries = [
   'Kenya'
 ]
 
+const webTechs = [
+  'HTML',
+  'CSS',
+  'JavaScript',
+  'React',
+  'Redux',
+  'Node',
+  'MongoDB'
+]
 // let text =
 // 'I love teaching and empowering people. I teach HTML, CSS, JS, React, Python.'
 
@@ -29,8 +38,17 @@ const countries = [
 // shoppingCart[2] = "Green Tea"
 // console.log(shoppingCart)
 
-if(countries.includes('Ethiopia')){
-  console.log("Yes, its in the arr")
-} else {
-  console.log("Country not here")
-}
+// if(countries.includes('Ethiopia')){
+//   console.log("Yes, its in the arr")
+// } else {
+//   console.log("Country not here")
+// }
+
+const maybeYes = webTechs.includes('Sass') ? console.log('Sass is a CSS Preprocess') : console.log('Sass is not included !')
+
+const frontEnd = ['HTML', 'CSS', 'JS', 'React', 'Redux']
+const backEnd = ['Node','Express', 'MongoDB']
+
+let fullstack = frontEnd.concat(backEnd)
+
+console.log(fullstack)
