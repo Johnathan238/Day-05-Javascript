@@ -1,26 +1,26 @@
-const countries = [
-  'Albania',
-  'Bolivia',
-  'Canada',
-  'Denmark',
-  'Ethiopia',
-  'Finland',
-  'Germany',
-  'Hungary',
-  'Ireland',
-  'Japan',
-  'Kenya'
-]
+// const countries = [
+//   'Albania',
+//   'Bolivia',
+//   'Canada',
+//   'Denmark',
+//   'Ethiopia',
+//   'Finland',
+//   'Germany',
+//   'Hungary',
+//   'Ireland',
+//   'Japan',
+//   'Kenya'
+// ]
 
-const webTechs = [
-  'HTML',
-  'CSS',
-  'JavaScript',
-  'React',
-  'Redux',
-  'Node',
-  'MongoDB'
-]
+// const webTechs = [
+//   'HTML',
+//   'CSS',
+//   'JavaScript',
+//   'React',
+//   'Redux',
+//   'Node',
+//   'MongoDB'
+// ]
 // let text =
 // 'I love teaching and empowering people. I teach HTML, CSS, JS, React, Python.'
 
@@ -44,11 +44,19 @@ const webTechs = [
 //   console.log("Country not here")
 // }
 
-const maybeYes = webTechs.includes('Sass') ? console.log('Sass is a CSS Preprocess') : console.log('Sass is not included !')
+// const maybeYes = webTechs.includes('Sass') ? console.log('Sass is a CSS Preprocess') : console.log('Sass is not included !')
 
-const frontEnd = ['HTML', 'CSS', 'JS', 'React', 'Redux']
-const backEnd = ['Node','Express', 'MongoDB']
+// const frontEnd = ['HTML', 'CSS', 'JS', 'React', 'Redux']
+// const backEnd = ['Node','Express', 'MongoDB']
 
-let fullstack = frontEnd.concat(backEnd)
+// let fullstack = frontEnd.concat(backEnd)
 
-console.log(fullstack)
+// console.log(fullstack)
+
+let ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
+
+// ages = Math.max(...ages)
+// console.log(ages)
+
+ages = Math.min(...ages)
+console.log(ages)
