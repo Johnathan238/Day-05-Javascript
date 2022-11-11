@@ -55,8 +55,12 @@
 
 let ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
 
-// ages = Math.max(...ages)
-// console.log(ages)
+Newages = Math.max(...ages)
+console.log(Newages)
 
 ages = Math.min(...ages)
 console.log(ages)
+
+checkAge = Newages - ages
+console.log(checkAge)
+
