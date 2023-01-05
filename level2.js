@@ -64,8 +64,10 @@
 // checkAge = Newages - ages
 // console.log(checkAge)
 
-let text =
+
+var text =
 'I love teaching and empowering people. I teach HTML, CSS, JS, React, Python.'
-console.log(text)
+
+console.log(text.split('!"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~'))
 console.log(text.length)
 
