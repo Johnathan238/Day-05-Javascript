@@ -64,10 +64,17 @@
 // checkAge = Newages - ages
 // console.log(checkAge)
 
+///*** COME BACK TO THIS ONE
+// var text =
+// 'I love teaching and empowering people. I teach HTML, CSS, JS, React, Python.'
 
-var text =
-'I love teaching and empowering people. I teach HTML, CSS, JS, React, Python.'
+// console.log(text.split('!"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~'))
+// console.log(text.length)
 
-console.log(text.split('!"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~'))
-console.log(text.length)
+const shoppingCart = ['Milk', 'Coffee', 'Tea', 'Honey']
+shoppingCart.unshift('Meat')
+shoppingCart.push('Sugar')
+shoppingCart[3] = "Green Tea"
+console.table(shoppingCart)
+
 
