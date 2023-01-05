@@ -71,10 +71,16 @@
 // console.log(text.split('!"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~'))
 // console.log(text.length)
 
-const shoppingCart = ['Milk', 'Coffee', 'Tea', 'Honey']
-shoppingCart.unshift('Meat')
-shoppingCart.push('Sugar')
-shoppingCart[3] = "Green Tea"
-console.table(shoppingCart)
+// const shoppingCart = ['Milk', 'Coffee', 'Tea', 'Honey']
+// shoppingCart.unshift('Meat')
+// shoppingCart.push('Sugar')
+// shoppingCart[3] = "Green Tea"
+// console.table(shoppingCart)
+
+const frontEnd = ['HTML', 'CSS', 'JS', 'React', 'Redux']
+const backEnd = ['Node','Express', 'MongoDB']
+
+const fullStack = frontEnd.concat(backEnd)
+console.log(fullStack)
 
 
