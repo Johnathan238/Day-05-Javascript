@@ -53,14 +53,19 @@
 
 // console.log(fullstack)
 
-let ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
+// let ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
 
-Newages = Math.max(...ages)
-console.log(Newages)
+// Newages = Math.max(...ages)
+// console.log(Newages)
 
-ages = Math.min(...ages)
-console.log(ages)
+// ages = Math.min(...ages)
+// console.log(ages)
 
-checkAge = Newages - ages
-console.log(checkAge)
+// checkAge = Newages - ages
+// console.log(checkAge)
+
+let text =
+'I love teaching and empowering people. I teach HTML, CSS, JS, React, Python.'
+console.log(text)
+console.log(text.length)
 
