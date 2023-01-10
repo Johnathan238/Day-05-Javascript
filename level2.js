@@ -77,10 +77,12 @@
 // shoppingCart[3] = "Green Tea"
 // console.table(shoppingCart)
 
-const frontEnd = ['HTML', 'CSS', 'JS', 'React', 'Redux']
-const backEnd = ['Node','Express', 'MongoDB']
+// const frontEnd = ['HTML', 'CSS', 'JS', 'React', 'Redux']
+// const backEnd = ['Node','Express', 'MongoDB']
 
-const fullStack = frontEnd.concat(backEnd)
-console.log(fullStack)
+// const fullStack = frontEnd.concat(backEnd)
+// console.log(fullStack)
+
+
 
 
