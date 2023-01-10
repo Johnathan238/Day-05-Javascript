@@ -193,3 +193,5 @@ const countries = [
   'Zambia',
   'Zimbabwe'
 ]
+
+console.log(countries[Math.floor(countries.length/2)])
